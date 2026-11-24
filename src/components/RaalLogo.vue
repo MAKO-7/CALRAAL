@@ -1,0 +1,74 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 120 132"
+    fill="none"
+    :class="sizeClass"
+    aria-label="Logo RAAL La Louvière"
+  >
+    <path
+      d="M60 4L110 19V64C110 96 88 117 60 128C32 117 10 96 10 64V19L60 4Z"
+      fill="#007A43"
+      stroke="#FFFFFF"
+      stroke-width="4.5"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M60 11L103 24V63C103 91 84 110 60 120C36 110 17 91 17 63V24L60 11Z"
+      fill="none"
+      stroke="#A7F3D0"
+      stroke-opacity="0.45"
+      stroke-width="1.5"
+    />
+    <text
+      x="60"
+      y="34"
+      text-anchor="middle"
+      fill="#FFFFFF"
+      font-family="system-ui, -apple-system, sans-serif"
+      font-size="16"
+      font-weight="900"
+      letter-spacing="2.2"
+    >
+      RAAL
+    </text>
+    <line x1="28" y1="40" x2="92" y2="40" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.5" />
+    <path
+      d="M37 48L47 60L53 56H67L73 60L83 48L85 68L78 78L72 95L60 105L48 95L42 78L35 68L37 48Z"
+      fill="#FFFFFF"
+    />
+    <path d="M44 59L49 67L43 69L44 59Z" fill="#007A43" />
+    <path d="M76 59L71 67L77 69L76 59Z" fill="#007A43" />
+    <path d="M45 72L55 75L50 78L45 72Z" fill="#007A43" />
+    <path d="M75 72L65 75L70 78L75 72Z" fill="#007A43" />
+    <path d="M55 87L60 93L65 87H55Z" fill="#007A43" />
+    <path
+      d="M60 93V99M53 96L60 100L67 96"
+      stroke="#007A43"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <text
+      x="60"
+      y="114"
+      text-anchor="middle"
+      fill="#DCFCE7"
+      font-family="system-ui, -apple-system, sans-serif"
+      font-size="7.5"
+      font-weight="700"
+      letter-spacing="1.1"
+    >
+      LA LOUVIÈRE
+    </text>
+  </svg>
+</template>
+
+<script setup>
+defineProps({
+  sizeClass: {
+    type: String,
+    default: 'w-9 h-10',
+  },
+})
+</script>

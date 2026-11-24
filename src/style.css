@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-raal: #007A43;
+  --color-raal-dark: #005730;
+  --color-raal-light: #e6f4ed;
+  --color-event: #6366F1;
+  --color-rdv: #2563EB;
+  --color-telework: #0D9488;
+  --color-task: #CA8A04;
+  --color-leave: #EA580C;
+  --color-sick: #DC2626;
+  --color-busy: #64748B;
+}
+
+@layer base {
+  html, body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+}
+
+/* Custom thin scrollbars for calendar grids */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

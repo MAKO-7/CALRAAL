@@ -1,0 +1,17 @@
+{
+  "name": "CentRAAL — Calendrier RAAL La Louvière",
+  "short_name": "CentRAAL",
+  "description": "Maquette démonstrative du module Calendrier interne CentRAAL (RAAL La Louvière)",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#007A43",
+  "icons": [
+    {
+      "src": "./raal-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
